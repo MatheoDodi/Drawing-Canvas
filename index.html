@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>HTML5 Canvas</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML CANVAS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/style.css" />
 </head>
 <body>
-<canvas id="draw" width="800" height="800"></canvas>
-<script>
-</script>
+  <div class="wrapper">
+    <canvas id="draw" width="800" height="800"></canvas>
+    <div class="info">
+      <h1>Draw Something</h1>
+      <div class="button" id="up">Bigger Brush</div>
+      <div class="button" id="down">Smaller Brush</div>
+    </div>
+  </div>
 
-<style>
-  html, body {
-    margin:0;
-  }
-</style>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
